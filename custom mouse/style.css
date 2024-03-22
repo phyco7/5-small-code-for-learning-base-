@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.curser{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transition: all linear 0.2s;
+    /* color: rgb(250, 0, 0); */
+position: absolute;
+}
+h1{
+font-size: 10vw;
+}
